@@ -9,7 +9,7 @@ class SearchBar extends Component {
 
     this.state = { term: '' };
 
-     // To allow this funcs to access this
+     // To allow this functions to access this
     this.onInputChange = this.onInputChange.bind(this);
     this.onFormSubmit = this.onFormSubmit.bind(this);
   }

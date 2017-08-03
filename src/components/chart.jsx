@@ -3,13 +3,14 @@ import { Sparklines, SparklinesLine, SparklinesReferenceLine } from 'react-spark
 import _ from 'lodash';
 
 function average(data) {
+  // Mean of 5-day forecast
   return _.round(_.sum(data)/data.length);
 }
 
 export default (props) => {
   return (
     <div>
-      <Sparklines /*svgHeight={120} svgWidth={180}*/ height={120} width={180} data={props.data}>
+      <Sparklines height={120} width={180} data={props.data}>
         <SparklinesLine color={props.color} />
         <SparklinesReferenceLine type="mean" />
       </Sparklines>
