@@ -1,16 +1,16 @@
 {
-  "name": "react-redux-starter-updated",
+  "name": "react-forecast",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple 5-day forecast app made with React and Redux",
   "main": "index.js",
-  "repository": "",
+  "repository": "https://github.com/Miguel-Herrero/React-Forecast.git",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
     "test:watch": "npm run test -- --watch"
   },
-  "author": "",
-  "license": "MIT",
+  "author": "Miguel Herrero <miguel.herrerobaena@gmail.com>",
+  "license": "Apache 2.0",
   "devDependencies": {
     "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",

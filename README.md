@@ -1,3 +1,10 @@
-# React-Redux-Starter-Updated
+# React-Forecast
 
-An updated boilerplate for Stephen Grider's courses.
+See the next 5-day forecast of any US city by searching it.
+
+This simple demo uses:
+- React
+- Redux
+- OpenWeatherMap API
+- Google Maps API
+- Sparklines for charts
